@@ -154,6 +154,18 @@ proxy-groups:
     type: select
     proxies: [Default, Auto, DIRECT]
     icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Instagram.png
+  - name: us
+    type: select
+    include-all: true
+    filter: "(?i)美|us|unitedstates|united states"
+  - name: japan
+    type: select
+    include-all: true
+    filter: "(?i)日|jp|japan"
+  - name: korea
+    type: select
+    include-all: true
+    filter: "(?i)韩|kr|korea"
   - name: us-auto
     type: url-test
     url: https://www.gstatic.com/generate_204
