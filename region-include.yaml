@@ -159,7 +159,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     tolerance: 20
     interval: 300
-    include-all: true
     filter: "(?i)美|us|unitedstates|united states"
     proxies: []
     icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/United_States.png
@@ -168,7 +167,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     tolerance: 20
     interval: 300
-    include-all: true
     filter: "(?i)日|jp|japan"
     proxies: []
     icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Japan.png
@@ -177,7 +175,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     tolerance: 20
     interval: 300
-    include-all: true
     filter: "(?i)韩|kr|korea"
     proxies: []
     icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Korea.png    
