@@ -156,23 +156,19 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Instagram.png
   - name: us
     type: select
-    include-all: true
     filter: "(?i)美|us|unitedstates|united states"
     proxies: []
   - name: japan
     type: select
-    include-all: true
     filter: "(?i)日|jp|japan"
     proxies: []
   - name: korea
     type: select
-    include-all: true
     filter: "(?i)韩|kr|korea"
     proxies: []
   - name: us-auto
     type: url-test
     url: https://www.gstatic.com/generate_204
-    include-all: true
     filter: "(?i)美|us|unitedstates|united states"
     tolerance: 20
     interval: 300
@@ -181,7 +177,6 @@ proxy-groups:
   - name: japan-auto
     type: url-test
     url: https://www.gstatic.com/generate_204
-    include-all: true
     filter: "(?i)日|jp|japan"
     tolerance: 20
     interval: 300
@@ -190,7 +185,6 @@ proxy-groups:
   - name: korea-auto
     type: url-test
     url: https://www.gstatic.com/generate_204
-    include-all: true
     filter: "(?i)韩|kr|korea"
     tolerance: 20
     interval: 300
